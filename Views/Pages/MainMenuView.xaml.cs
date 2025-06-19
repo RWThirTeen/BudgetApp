@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace BudgetApp.Views
+namespace BudgetApp.Views.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainMenu.xaml
+    /// Логика взаимодействия для MainMenuView.xaml
     /// </summary>
-    public partial class MainMenu : Page
+    public partial class MainMenuView : UserControl
     {
-        public MainMenu()
+        public MainMenuView()
         {
             InitializeComponent();
         }
